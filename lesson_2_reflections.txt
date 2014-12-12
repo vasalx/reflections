@@ -1,0 +1,5 @@
+*What happens when you initialize  a repository? Why do you need to do it?*
+
+When repository is being created git takes the contents of the directory in which
+it is created as the cotent that needs to be controlled. We need to do it because
+git doesnt know from the start which directory must be version controlled.
