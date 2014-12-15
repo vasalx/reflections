@@ -3,3 +3,28 @@
 When repository is being created git takes the contents of the directory in which
 it is created as the cotent that needs to be controlled. We need to do it because
 git doesnt know from the start which directory must be version controlled.
+
+* How is the staging area different from the current working directory and the
+repository? What value do you think it offers?
+
+As I can see it, staging area is the state from which something goes into repository.
+Hence, if you don't want to commit into repository every file, but only some, you
+can put it into staging area and only those will be commited into repository.
+
+*How can you use the staging area to make sure you have one logical change per
+commit?
+
+Constantly comparing changes in file and in staging area, I can see if there is
+enough changes made to call it logical change.
+
+
+*What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?*
+
+I see two particular situations where versions may be useful for org purposes:
+first one is making several versions of the program with different properties,
+and the other one is experimenting while trying to solve some complex problem,
+specifically when you are working with someone else.
+ In the first case you can create individual branches for every version of the
+ code and and keep everything clear, in the second you can concurrently experiment
+ on totally different things with similar prerequsites of your master code.  
