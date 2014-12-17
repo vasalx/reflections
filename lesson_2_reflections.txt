@@ -27,4 +27,10 @@ and the other one is experimenting while trying to solve some complex problem,
 specifically when you are working with someone else.
  In the first case you can create individual branches for every version of the
  code and and keep everything clear, in the second you can concurrently experiment
- on totally different things with similar prerequsites of your master code.  
+ on totally different things with similar prerequsites of your master code.
+
+ *How do diagrams help you visualize branch structure?
+
+ Drawing diagram helps by providing visual aid to mental picture of the branch
+ structure and provides a way to quickly and easy understanding of what commits
+ can be reached and how.
