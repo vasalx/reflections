@@ -43,3 +43,8 @@ The result happens to be a branch that contains commits from both branches, that
 is commits in both old branches are accessible from the tip. On a diagram we
 show it exactly the way it works: you can access any previous commit from the tip,
 that is both from master branch and the branch that was merged.
+
+*What are the pros and cons of Git's automatic merging vs always doing merge
+manually?*
+
+In case when there is no conflicts git's automatic merging saves lots of  time.
