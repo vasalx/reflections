@@ -34,3 +34,12 @@ specifically when you are working with someone else.
  Drawing diagram helps by providing visual aid to mental picture of the branch
  structure and provides a way to quickly and easy understanding of what commits
  can be reached and how.
+
+
+*What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?*
+
+The result happens to be a branch that contains commits from both branches, that
+is commits in both old branches are accessible from the tip. On a diagram we
+show it exactly the way it works: you can access any previous commit from the tip,
+that is both from master branch and the branch that was merged.
