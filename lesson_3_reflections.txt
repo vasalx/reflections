@@ -1,0 +1,8 @@
+*When would you want to use remote repository rather than keeping all your work local?*
+
+There are two main cases:
+1. To collaborate with other people. They can have access to the remote as well as me.
+2. If I work from different places or different computers. The system can help me be in sync. 
+Although I am not sure which is better in this case: Drive or DropBox.
+
+The other case is publishing. If I would like to publish my work, I would definitely use GitHub.
